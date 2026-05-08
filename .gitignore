@@ -1,0 +1,33 @@
+# ==========================================
+# Neovim - Arquivos Temporários e de Swap
+# ==========================================
+*.swp
+*.swo
+*~
+*.bak
+
+# ==========================================
+# Neovim - Estado Local e Sessões
+# Caso você use plugins para salvar a sessão atual
+# ==========================================
+/sessions/
+Session.vim
+Sessionx.vim
+
+# ==========================================
+# Neovim - Pastas de Cache (se configuradas localmente)
+# ==========================================
+/undo/
+/swap/
+/backup/
+/view/
+
+# ==========================================
+# Ambiente de Desenvolvimento (Prevenção)
+# Caso você teste scripts Python ou abra terminais na raiz da pasta
+# ==========================================
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
