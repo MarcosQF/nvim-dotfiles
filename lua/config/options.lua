@@ -1,5 +1,6 @@
 local opt = vim.opt
 
+opt.wrap = false
 opt.number = true
 opt.relativenumber = true
 opt.shiftwidth = 2
