@@ -13,3 +13,8 @@ opt.ignorecase = true
 opt.smartcase = true
 opt.cursorline = true
 opt.termguicolors = true
+
+vim.diagnostic.config({
+  virtual_text = true,
+  underline = true
+})
