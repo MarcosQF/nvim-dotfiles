@@ -16,3 +16,9 @@ vim.keymap.set("n", "<esc>", "<cmd>noh<cr>")
 vim.keymap.set("n", "gm", "`", { desc = "Go to mark" })
 
 vim.keymap.set("n", "vig", "ggVG", { desc = "Select all file" })
+
+vim.keymap.set("n", "gl", "$")
+vim.keymap.set("n", "gh", "0")
+
+vim.keymap.set("v", "gl", "$")
+vim.keymap.set("v", "gh", "0")
