@@ -7,7 +7,7 @@ vim.g.maplocalleader = " "
 -- =============================================================================
 -- 2. FILE AND SYSTEM OPERATIONS
 -- =============================================================================
-vim.keymap.set("n", "<C-s>", "<cmd.w<cr>")
+vim.keymap.set("n", "<C-s>", "<cmd>w<cr>")
 vim.keymap.set("i", "<C-s>", "<esc><cmd>w<cr>")
 vim.keymap.set("v", "<C-s>", "<cmd>w<cr>")
 
