@@ -1,22 +1,18 @@
 return {
   'saghen/blink.cmp',
+  version = '*', 
   dependencies = {
     'saghen/blink.lib',
     'rafamadriz/friendly-snippets',
   },
-  build = function()
-    require('blink.cmp').build():wait(60000)
-  end,
 
-  ---@module 'blink.cmp'
-  ---@type blink.cmp.Config
   opts = {
     keymap = { preset = 'enter' },
-
-    completion = { documentation = { auto_show = false } },
-
     sources = { default = { 'lsp', 'path', 'snippets', 'buffer' } },
 
-    fuzzy = { implementation = "rust" }
+    fuzzy = { 
+      -- Mude de "rust" para "lua"
+      implementation = "lua" 
+    }
   },
 }

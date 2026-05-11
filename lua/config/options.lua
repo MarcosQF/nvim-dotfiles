@@ -14,6 +14,8 @@ opt.smartcase = true
 opt.cursorline = true
 opt.termguicolors = true
 opt.swapfile = false
+opt.termguicolors = true
+opt.showtabline = 2
 
 vim.diagnostic.config({
   virtual_text = true,
