@@ -7,9 +7,7 @@ vim.g.maplocalleader = " "
 -- =============================================================================
 -- 2. FILE AND SYSTEM OPERATIONS
 -- =============================================================================
-vim.keymap.set("n", "<C-s>", "<cmd>w<cr>")
-vim.keymap.set("i", "<C-s>", "<esc><cmd>w<cr>")
-vim.keymap.set("v", "<C-s>", "<cmd>w<cr>")
+vim.keymap.set("n", "W", "<cmd>w<cr>")
 
 -- Quit or close current buffer quickly
 vim.keymap.set("n", "<leader>qq", "<cmd>q<cr>", { desc = "[Q]uit [Q]uickly (close buffer)" })
