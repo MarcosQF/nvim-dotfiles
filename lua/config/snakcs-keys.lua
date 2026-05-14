@@ -1,7 +1,6 @@
 -- Snacks: Arquivos e Explorador
-vim.keymap.set("n", "<leader><space>", function() Snacks.picker.files() end, { desc = "Find Files" })
+vim.keymap.set("n", "<leader>f", function() Snacks.picker.files() end, { desc = "Find Files" })
 vim.keymap.set("n", "<leader>e", function() Snacks.explorer() end, { desc = "File Explorer" })
-vim.keymap.set("n", "<leader>fc", function() Snacks.picker.files({ cwd = vim.fn.stdpath("config") }) end, { desc = "Get config files" })
 
 -- Snacks: Buffers e Scratch
 vim.keymap.set("n", "<leader>.", function() Snacks.scratch() end, { desc = "Toggle Scratch Buffer" })

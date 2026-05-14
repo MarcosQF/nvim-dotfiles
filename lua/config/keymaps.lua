@@ -46,3 +46,4 @@ vim.keymap.set("n", "<leader>ca", vim.lsp.buf.code_action, { desc = "LSP Code Ac
 vim.keymap.set("n", "<leader>cd", vim.diagnostic.open_float, { desc = "Show line diagnostics" })
 vim.keymap.set("n", "K", vim.lsp.buf.hover, { desc = "Show Documentation" })
 vim.keymap.set("n", "gd", vim.lsp.buf.definition, { desc = "Go to Definition" })
+vim.keymap.set("n", "gi", vim.lsp.buf.implementation, { desc = "Go to Implementation" })
