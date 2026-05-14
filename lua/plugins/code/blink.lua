@@ -1,6 +1,6 @@
 return {
   'saghen/blink.cmp',
-  version = '*', 
+  version = '*',
   dependencies = {
     'saghen/blink.lib',
     'rafamadriz/friendly-snippets',
@@ -10,9 +10,8 @@ return {
     keymap = { preset = 'enter' },
     sources = { default = { 'lsp', 'path', 'snippets', 'buffer' } },
 
-    fuzzy = { 
-      -- Mude de "rust" para "lua"
-      implementation = "lua" 
+    fuzzy = {
+      implementation = "lua"
     }
   },
 }
