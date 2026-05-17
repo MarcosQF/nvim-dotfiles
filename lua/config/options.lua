@@ -17,7 +17,7 @@ opt.swapfile = false
 opt.termguicolors = true
 opt.showtabline = 2
 
-vim.o.autocomplete = true
+vim.o.autocomplete = false
 vim.o.pumblend = 10
 vim.o.pumheight = 15
 vim.o.completeopt = 'menu,menuone,noselect,nearest'
