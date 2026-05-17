@@ -12,7 +12,7 @@ return {
       mode = "buffers",
       separator_style = "thin",
 
-      always_show_bufferline = false,
+      always_show_bufferline = true,
       show_buffer_close_icons = true,
       show_close_icon = false,
       color_icons = true,
@@ -22,6 +22,12 @@ return {
       max_name_length = 18,
       tab_size = 18,
       diagnostics = "nvim_lsp",
+
+      hover = {
+          enabled = true,
+          delay = 200,
+          reveal = {'close'}
+      },
 
       offsets = {
         {

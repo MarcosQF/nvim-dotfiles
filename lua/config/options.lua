@@ -17,6 +17,8 @@ opt.swapfile = false
 opt.termguicolors = true
 opt.showtabline = 2
 
+vim.lsp.document_color.enable(true, nil, { style = "virtual" })
+
 vim.o.autocomplete = false
 vim.o.pumblend = 10
 vim.o.pumheight = 15
